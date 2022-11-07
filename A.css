@@ -1,0 +1,10 @@
+.container{
+    padding: 20px;
+    margin: 50px;
+}
+
+.divForSlider {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
