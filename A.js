@@ -1,7 +1,7 @@
 let cont = document.getElementById("container");
 
     document.addEventListener("keypress", function onPress(event) {
-      if (event.key === " ") {
+      if (event.key === " "){
         let style = window.getComputedStyle(cont, null).getPropertyValue('font-size');
         let currentSize = parseInt(style);
         console.log(currentSize);
